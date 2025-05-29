@@ -427,9 +427,11 @@ footer {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.footer-logo-wrapper {
+.footer-wrapper {
   display: flex;
   align-items: baseline;
+}
+.footer-logo-inner {
   margin-right: 120px;
 }
 .footer_logo {
@@ -453,8 +455,6 @@ footer {
   letter-spacing: 0.02em;
 }
 .footer-social {
-  display: flex;
-  align-items: baseline;
   color: #ffffff;
 }
 .footer-social-title {
@@ -468,6 +468,7 @@ footer {
 .footer-social__list {
   display: flex;
   gap: 16px;
+  padding-left: 0;
 }
 .footer-social__item {
   width: 40px;
