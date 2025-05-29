@@ -88,7 +88,7 @@ ul {
   line-height: 24px;
   color: #404bbf;
 }
-.list-item::after {
+/* .list-item::after {
   content: "";
   position: absolute;
   left: 0;
@@ -101,7 +101,7 @@ ul {
 }
 .list-item:hover::after {
   color: var(--primary-accent-color);
-}
+} */
 .list-link {
   display: block;
   position: relative;
@@ -109,12 +109,12 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--primary-accent-color);
   padding-top: 24px;
   padding-bottom: 24px;
   transition: color var(--transition);
 }
-/* .list-link::after {
+.list-link::after {
   content: "";
   position: absolute;
   left: 0;
@@ -124,15 +124,15 @@ ul {
   background: var(--primary-accent-color);
   border-radius: 2px;
   transition: width var(--transition);
-} */
+}
 .list-link:hover,
 .list-link:focus {
   color: var(--primary-accent-color);
 }
-/* .list-link:hover::after,
+.list-link:hover::after,
 .list-link:focus::after {
   width: 100%;
-} */
+}
 
 .address {
   font-style: normal;
