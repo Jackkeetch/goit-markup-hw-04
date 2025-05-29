@@ -469,6 +469,7 @@ ul {
   display: flex;
   gap: 16px;
   padding-left: 0;
+  margin: 0;
 }
 .footer-social__item {
   width: 40px;
@@ -485,7 +486,6 @@ ul {
 .footer-social__link {
   width: 100%;
   height: 100%;
-  padding: 12px;
   background-color: var(--secondary-accent-color);
   border-radius: 50%;
   display: flex;
