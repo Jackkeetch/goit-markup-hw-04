@@ -77,13 +77,13 @@ ul {
   padding-left: 0;
   margin: 0;
 }
+
 .list-item {
   position: relative;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  color: #404bbf;
 }
 
 .list-link {
@@ -98,6 +98,9 @@ ul {
   overflow: hidden;
   transition: color var(--transition);
 }
+.list .list-item:first-child .list-link {
+  color: var(--primary-accent-color);
+}
 .list-link::after {
   content: "";
   position: absolute;
@@ -111,7 +114,8 @@ ul {
   transition: translate var(--transition);
 }
 .list-link:hover,
-.list-link:focus {
+.list-link:focus,
+.list-link:active {
   color: var(--primary-accent-color);
 }
 .list-link:hover::after,
