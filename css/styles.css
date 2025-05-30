@@ -424,8 +424,11 @@ ul {
 
 .footer {
   background-color: var(--primary-text-color);
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 0;
+}
+.footer .container {
+  display: flex;
+  align-items: baseline;
 }
 
 .footer-logo-wrapper {
